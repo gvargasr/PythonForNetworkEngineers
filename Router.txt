@@ -1,0 +1,3 @@
+Router1 is located in San Jose
+Router2 is located in Chicago
+Router3 is located in RTP
