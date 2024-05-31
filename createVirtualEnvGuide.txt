@@ -1,0 +1,39 @@
+python -m venv myenv
+
+#Replace myenv with any name you want.
+
+on macOS/Linux
+source myenv/bin/activate
+
+on Windows
+myenv/Scripts/activate
+
+After activating you should see the name of the virtual env in the terminal prompt.
+
+Upgrade pip and install required packages:
+
+pip install --upgrade pip setuptools wheel
+pip install netmiko
+
+
+Set the virtual environment as default for your project:
+This step usually involves configuring your IDE or editor to use the virtual environment by default. Here are the instructions for some common IDEs:
+
+```
+VS Code:
+    Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P).
+    Type Python: Select Interpreter.
+    Select the path to the Python interpreter in your virtual environment (myenv/bin/python on macOS/Linux or myenv\Scripts\python.exe on Windows).
+
+PyCharm:
+    Go to File > Settings (or PyCharm > Preferences on macOS).
+    Navigate to Project: <your_project_name> > Python Interpreter.
+    Click the gear icon and select Add.
+    Choose Existing environment and select the Python interpreter in your virtual environment. 
+```
+
+
+
+To deactivate:
+
+deactivate
