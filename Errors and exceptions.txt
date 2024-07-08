@@ -1,0 +1,36 @@
+There are two  types of errors: Syntax and exceptions.
+
+Syntax errrors occur when the parser identifies an incorrect structure or syntax in Python.
+
+Exceptions errors occur during runtime, syntax is correct but there was something the program could not handle.
+for example a division by zero:
+
+a = 1
+b = 0
+
+c = a / b >>> this will trigger an exception.
+
+A few of the most common exceptions include:
+AttributeError: An attribute reference assignment fails.
+IOError: A system-related error, including I/O failures such as “file not found” or “disk full.”
+ImportError: An import statement fails to load a module.
+IndexError: A sequence subscript is out of range.
+KeyError: A mapping (dictionary) key is not found in the set of existing keys.
+KeyboardInterrupt: A user hit the interrupt key (normally Control-C or Delete).
+NameError: A local or global name is not found.
+OverflowError: The result of an arithmetic operation is too large to be represented.
+OSError: A function returns a system-related error.
+TypeError: An operation or function is applied to an object of inappropriate type.
+ValueError: A built-in operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as IndexError.
+ZeroDivisionError: The second argument of a division or modulo operation is zero.
+
+A misspelled variable name is a SyntaxError.
+
+To manage exceptions:
+- try-except-else
+- try-except-else-finally
+
+
+
+
+
