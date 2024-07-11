@@ -1,0 +1,86 @@
+# Introduction
+
+- Designing and developing software
+- Network Environment
+- APIs
+- JSON, XML and YAML
+- Version control System (Git)
+
+
+# Rise of APIs in Software Design
+
+Trends in SW development:
+
+- Web Applications.
+- Mobile applications.
+- Integration with Social Media.
+- Cloud services.
+- Free software and libraries.
+
+API allow faster prototyping and development of software. APIs allow to simply use and existing service or library to create a prototype or program.
+APIs enable communication between computer systems, specifying the details of how the information is exchanged. To facilitate code and functions RE-USE.
+
+# Using APIs
+
+To use APIs effectively consider:
+
+- Modular software design.
+- Prototyping and testing API inteegration.
+- Challenges in consuming networked APIs
+- Distributed computing patterns.
+
+CI/CD >>> Continuous Integrations and continuous deployment.
+
+Main purpose of APIs is to expose functionality, Documentation is equally important as implementation.
+
+API documentation provides:
+- Which functions or endpoints to call.
+- Which data to provide as parameters or expect as output.
+- How to encode protocol messages and data objects.
+
+
+APIs:
+- Enable separation of concerns.
+- Facilitate testing.
+
+
+There are two perspectives:
+- Client and Server perspective.
+
+
+# API Data Formats
+
+YAML, JSON, XML
+
+XML is often used for communications machine-to-machine as it is not so human readable.
+
+JSON uses same syntax as JavaScript, it is easy to convert JSON file into JavaScript.
+
+YAML is human readable. Indentation is similar as in Python.
+
+Any kind of data can be represented in any given format.
+
+
+YAML A'int Markup Language
+
+- Whitespaces are significant as indentation defines the structure in a YAML file.
+- Keys and Values are separated by a colon and space ": "
+- YAML try to assume which data type is intended as the value.
+- commas ',' are not required at the end of a line.
+- dash '-' denotes lists in YAML
+
+user:
+  name: john
+  locaiton:
+    city: Austin
+    state: TX
+  roles:
+    - admin
+    - user
+
+
+JSON JavaScript Object Notation
+
+
+
+
