@@ -1,0 +1,11 @@
+<root>
+  <user>
+    <name>john</name>
+    <location>
+      <city>Dallas</city>
+      <state>TX</state>
+    </location>
+    <roles>admin</roles>
+    <roles>user</roles>
+  </user>
+</root>

@@ -150,7 +150,59 @@ With Namespace:
 
 YAML and JSON can also use namespaces.
 
+
 If we are using RESTCONF, JSON files require a Namespace.
+
+
+# Serialization and Deserialization of Data.
+
+Serialization: Convert data structure or an object into a binary or textual format that can be stored and reconstructed later.
+Serialized files could be in YAML, JSON, XML or any other text format or binary format.
+
+Deserialization: Open the file and reconstruct it to the originak state with all the objects inside.
+
+Serialization > Convert an object into a file.
+Deserialization > Convert the file back to an object. This is also called: "data or file parsing"
+
+# Intro to Python
+
+Created by Guido van Rossum in 1991
+
+to view the Zen of Python >> type "import this"
+to check Python version installed: python --version or python -V 
+
+
+# Python Libraries:
+
+A library is any code outside your script that you want to use.
+
+Using libraries, the code becomes less error prune, and we can reuse the code that has been tested over and over.
+By only importing a specific library into your Python code we gain a wide range of features without the need to develop them ourselves.
+
+
+to see all available libraries/packages available >> https://pypi.org
+and then install it using "pip install <library>"
+
+Other option is thru the GitHub repository >> https://github.com
+
+
+# YAML File Manipulation with Python
+
+refer to files:
+  firstYaml.py
+  firstJSON.py
+  firstXML.py
+
+
+# PARSE API DATA FORMATS LAB
+
+
+
+
+
+
+
+
 
 
 

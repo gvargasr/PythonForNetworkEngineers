@@ -1,0 +1,17 @@
+users:
+  user1:
+    location:
+      city: Austin
+      state: TX
+    name: john
+    roles:
+    - admin
+    - user
+  user2:
+    location:
+      city: Dallas
+      state: TX
+    name: charlie
+    roles:
+    - admin
+    - user
