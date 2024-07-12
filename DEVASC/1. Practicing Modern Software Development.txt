@@ -81,6 +81,76 @@ user:
 
 JSON JavaScript Object Notation
 
+Easy to convert from JSON file to native JavaScript objects.
+
+JSON syntax uses curly braces {}, square brackets [], and quotes '' or "".
+Typically the very first character in a JSON file is a curly brace . Whitespaces are only for human reading.
+
+{
+  "user": {
+    "name": "john",
+    "location": {
+      "city": "Austin",
+      "state": "TX"
+    },
+    "roles": [
+      "admin",
+      "user"
+    ]
+  }
+}
+
+Is represented similar to YAML using key-value notation. A comma has to be used to separate values, except for the last value that does not require a comma.
+
+
+XML  eXtensible Markup Language
+
+Markup Language means that they indicate which parts of a document are present and not how the data is going to be shown in your system.
+
+XML uses tags >>  <tags></tags> in form as <key>value</key>
+
+Usually all tag names are written in lower case. Whitespases inside same tags are significant, if they are between different tags for 
+human readability are not significant.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<user>
+  <name>john</name>
+  <location>
+    <city>Austin</city>
+    <state>TX</state>
+  </location>
+  <roles>admin</roles>
+  <roles>user</roles>
+</user>
+
+
+
+XML Namespaces: are used to avoid conflicts when using same tag on different XML files.    in the starting tag we have to configure the namespace:
+xmlns:prefix='URI'
+
+Without Namespace:
+
+<table>
+  <tr>
+    <td>Router</td>
+    <td>Switch</td>
+  </tr>
+</table>
+
+With Namespace: 
+
+<a:table xmlns:a='namespaceURI_a'>
+  <a:tr>
+    <a:td>Router</a:td>
+    <a:td>Switch</a:td>
+  </a:tr>
+</a:table>
+
+
+YAML and JSON can also use namespaces.
+
+If we are using RESTCONF, JSON files require a Namespace.
 
 
 
